@@ -119,7 +119,7 @@
         margin: auto;
         padding: 20px;
         border: 1px solid #777;
-        width: 75%;
+        width: 40%;
       }
 
       .ge-modal-close {
@@ -246,11 +246,11 @@
       <!-- Modal content -->
       <div class="geo-modal-content">
         <span class="geo-modal-close" onClick='dismissGeoModal()'>&times;</span>
-        <div class="geo-modal-message">
+        <div id="geo-modal-message">
         </div>
-        <button onClick='dismissGeoModal()'>No</button>
+        <button class='button' onClick='dismissGeoModal()'>No</button>
         <!-- this has its href changed in the script below -->
-        <button id='geo-redirect-button' type='button'>Yes</button>
+        <button id='geo-redirect-button' class='button'>Yes</button>
       </div>
     
     </div>
