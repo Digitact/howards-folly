@@ -256,7 +256,10 @@
     </div>
     
     <script>
-      $(document).ready(function(event) {
+      var jquery = null;
+      if (window.jQuery) { jquery = window.jQuery; } else if (window.Checkout && window.Checkout.$) { jquery = window.Checkout.$; }
+
+      jquery(document).ready(function(event) {
         //check the cookies, if it's not in there then display the modal
         let geoCookieFound = false;
         let geoCookie = "geocheck=";
@@ -286,6 +289,7 @@
               let browserCountry = window.location.origin;
               let redirect = ''
               let countryName = 'your region'
+              let modalMessage = '';
 
               //only do this if you're not already on this site
               switch (country_code) {
@@ -293,25 +297,39 @@
                       if(!browserCountry.includes('howards-folly-hk')) {
                         redirect = 'https://howards-folly-hk.myshopify.com/';
                         countryName = "Hong Kong";
+                        modalMessage = "<p>We have a local site for " + countryName + "! Would you like to be redirected?</p>"
                       }
                       break;
                   case 'gb':
                       if(!browserCountry.includes('howards-folly-uk')) {
                         redirect = 'https://howards-folly-uk.myshopify.com/';
                         countryName = "Great Britain";
+                        modalMessage = "<p>We have a local site for " + countryName + "! Would you like to be redirected?</p>"
                       }
                       break;
                   case 'pt':
+                      if(!browserCountry.includes('pt.howards-folly')) {
+                        redirect = 'https://pt.howards-folly.winehub.io/'
+                        countryName = "Portugal"
+                        modalMessage = "<p>We have a local site for " + countryName + "! Would you like to be redirected?</p>"
+                      }
                       break;
+                  default:
+                      if(browserCountry.includes('howards-folly-uk') || browserCountry.includes('howards-folly-hk') || browserCountry.includes('pt.howards-folly')) {
+                        //in this case redirect to the international site
+                        redirect = 'https://howards-folly.winehub.io/'
+                        modalMessage = "<p>It looks like you're trying to go to a page outside of your region. Would you like to visit the international store instead?</p>"
+                      }
+                    break;
               };
 
             if(redirect.length > 0) {
-              $('#geo-redirect-button').attr('href', redirect);
-              $('#geo-modal-message').html(
-                "<p>We have a local site for " + countryName + "! Would you like to be redirected?</p>"
+              jquery('#geo-redirect-button').attr('href', redirect);
+              jquery('#geo-modal-message').html(
+                modalMessage
               );
               
-              $('#geo-location-modal').css({ display: "block "});
+              jquery('#geo-location-modal').css({ display: "block "});
               
             }
           })
@@ -323,7 +341,7 @@
       })
 
       function dismissGeoModal() {
-        $('#geo-location-modal').css({ display: "none" });
+        jquery('#geo-location-modal').css({ display: "none" });
       }
 
     </script>
