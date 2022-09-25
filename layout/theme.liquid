@@ -255,11 +255,11 @@
     
     </div>
     
-    <script>
-      var jquery = null;
-      if (window.jQuery) { jquery = window.jQuery; } else if (window.Checkout && window.Checkout.$) { jquery = window.Checkout.$; }
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-      jquery(document).ready(function(event) {
+    <script>
+      
+      $(document).ready(function(event) {
         //check the cookies, if it's not in there then display the modal
         let geoCookieFound = false;
         let geoCookie = "geocheck=";
@@ -324,12 +324,12 @@
               };
 
             if(redirect.length > 0) {
-              jquery('#geo-redirect-button').attr('href', redirect);
-              jquery('#geo-modal-message').html(
+              $('#geo-redirect-button').attr('href', redirect);
+              $('#geo-modal-message').html(
                 modalMessage
               );
               
-              jquery('#geo-location-modal').css({ display: "block "});
+              $('#geo-location-modal').css({ display: "block "});
               
             }
           })
@@ -341,7 +341,7 @@
       })
 
       function dismissGeoModal() {
-        jquery('#geo-location-modal').css({ display: "none" });
+        $('#geo-location-modal').css({ display: "none" });
       }
 
     </script>
