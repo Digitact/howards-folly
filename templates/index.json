@@ -16,7 +16,6 @@
         "heading"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/EDIMG_8611-e1550776252723.jpg",
         "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-end",
@@ -106,7 +105,6 @@
         "ac882478-d59d-4a54-a76f-569633ff93de"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/ourwinery.jpg",
         "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
@@ -179,7 +177,6 @@
         "1637134659ecd9f156-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/ourvinyard.jpg",
         "image_height": "small",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
@@ -197,7 +194,6 @@
         "1637134950f5294aab-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/label1.jpg",
             "title": "Art",
             "text": "<p>Inspired by the visual arts<\/p>"
           }
@@ -205,7 +201,6 @@
         "1637134950f5294aab-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ourpeople.jpg",
             "title": "Our People",
             "text": "<p>Passionate about winemaking<\/p>"
           }
