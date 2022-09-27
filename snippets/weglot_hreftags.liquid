@@ -1,3 +1,8 @@
 {%- comment -%} Variables set by Weglot's preferences panel {%- endcomment -%}
+
+
 <link rel="alternate" hreflang="en" href="{{ canonical_url }}">
-<link rel="alternate" hreflang="pt" href="https://www.howardsfollywine.com">
+
+<link rel="alternate" hreflang="{{ "pt" }}" href="https://www.howardsfollywine.com{{ request.path }}">
+
+
