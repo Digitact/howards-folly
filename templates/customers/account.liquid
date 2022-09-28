@@ -135,6 +135,7 @@
 .share-btn.hackernews  { background: #ff6600; }
 .share-btn.linkedin    { background: #4875B4; }
 .share-btn.email       { background: #444444; }
+.share-btn.whatsapp       { background: #25D366; }
   
 </style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -148,14 +149,11 @@
         <strong>Your Referral Code: </strong>
         <span id="referralCodeText">Loading...</span>
       </div>    
-      <div>
+      <div id="shareButtons" style="display:none;">
 
         <a id="shareTwitter" href="" class="share-btn twitter">
             Twitter
         </a>       
-        <a id="shareFacebook" href="" class="share-btn facebook">
-            Facebook
-        </a>
         <a id="shareWhatsapp" href="" class="share-btn whatsapp">
             WhatsApp
         </a>
@@ -252,14 +250,16 @@
           var twitterLink = "https://twitter.com/share?text=Enter%20my%20referral%20code%20"+data.referralCode+"%20in%20your%20Howard%27s%20Folly%20account%20and%20once%20we%20both%20have%20a%20wine%20club%20subscription%20we%27ll%20receive%20a%20discount%20code%20for%20a%20free%20case%20of%20wine.";
           $('#shareTwitter').attr('href',twitterLink);
 
-          var facebookLink = "https://www.facebook.com/sharer/sharer.php?t=Enter%20my%20referral%20code%20"+data.referralCode+"%20in%20your%20Howard%27s%20Folly%20account%20and%20once%20we%20both%20have%20a%20wine%20club%20subscription%20we%27ll%20receive%20a%20discount%20code%20for%20a%20free%20case%20of%20wine.";
-          $('#shareFacebook').attr('href',facebookLink);
+          //var facebookLink = "https://www.facebook.com/sharer/sharer.php?t=Enter%20my%20referral%20code%20"+data.referralCode+"%20in%20your%20Howard%27s%20Folly%20account%20and%20once%20we%20both%20have%20a%20wine%20club%20subscription%20we%27ll%20receive%20a%20discount%20code%20for%20a%20free%20case%20of%20wine.";
+          //$('#shareFacebook').attr('href',facebookLink);
           
           var whatsappLink = "https://wa.me/?text=Enter%20my%20referral%20code%20"+data.referralCode+"%20in%20your%20Howard%27s%20Folly%20account%20and%20once%20we%20both%20have%20a%20wine%20club%20subscription%20we%27ll%20receive%20a%20discount%20code%20for%20a%20free%20case%20of%20wine.";
           $('#shareWhatsapp').attr('href',whatsappLink);
           
           var emailLink = "mailto:?subject=Howard%27s%20Folly%20Wine%20Club%20Referral%20Code&body=Enter%20my%20referral%20code%20"+data.referralCode+"%20in%20your%20Howard%27s%20Folly%20account%20and%20once%20we%20both%20have%20a%20wine%20club%20subscription%20we%27ll%20receive%20a%20discount%20code%20for%20a%20free%20case%20of%20wine.";
           $('#shareEmail').attr('href',emailLink);
+
+          $('#shareButtons').show();          
           
           if (data.referredBy!==undefined) {
             $("#referralFormArea").html("You were referred by: "+data.referredBy);
