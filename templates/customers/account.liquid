@@ -249,6 +249,12 @@
           $('#referralCodeText').html(data.referralCode); 
           $('#referralCode').val(data.referralCode); 
 
+          var twitterLink = "https://twitter.com/share?text=Enter%20my%20referral%20code%20".data.referralCode."%20in%20your%20Howard%27s%20Folly%20account%20and%20once%20we%20both%20have%20a%20wine%20club%20subscription%20we%27ll%20recieve%20a%20discount%20code%20for%20a%20free%20case%20of%20wine.";
+          $('#shareTwitter').attr('href',twitterLink);
+
+          var facebookLink = "https://www.facebook.com/sharer/sharer.php?t=Enter%20my%20referral%20code%20".data.referralCode."%20in%20your%20Howard%27s%20Folly%20account%20and%20once%20we%20both%20have%20a%20wine%20club%20subscription%20we%27ll%20recieve%20a%20discount%20code%20for%20a%20free%20case%20of%20wine.";
+          $('#shareFacebook').attr('href',facebookLink);
+          
           var whatsappLink = "https://wa.me/?text=Enter%20my%20referral%20code%20".data.referralCode."%20in%20your%20Howard%27s%20Folly%20account%20and%20once%20we%20both%20have%20a%20wine%20club%20subscription%20we%27ll%20recieve%20a%20discount%20code%20for%20a%20free%20case%20of%20wine.";
           $('#shareWhatsapp').attr('href',whatsappLink);
           
