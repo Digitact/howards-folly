@@ -18,25 +18,16 @@
         "blocks": {
           "b9d9028f-f1b4-4467-a87b-040545c13ae9": {
             "type": "announcement",
-            "settings": {
-              "text": "Orders over €144 benefit from free shipping.",
-              "color_scheme": "background-1",
-              "link": ""
-            }
-          },
-          "announcement-bar-0": {
-            "type": "announcement",
             "disabled": true,
             "settings": {
-              "text": "",
+              "text": "Orders over €144 benefit from free shipping.",
               "color_scheme": "background-1",
               "link": ""
             }
           }
         },
         "block_order": [
-          "b9d9028f-f1b4-4467-a87b-040545c13ae9",
-          "announcement-bar-0"
+          "b9d9028f-f1b4-4467-a87b-040545c13ae9"
         ],
         "settings": {
         }
