@@ -85,19 +85,6 @@
       },
       "announcement-pt": {
         "type": "announcement-pt",
-        "blocks": {
-          "announcement-pt-0": {
-            "type": "announcement",
-            "settings": {
-              "text": "Orders over €144 benefit from free shipping.",
-              "color_scheme": "background-1",
-              "link": ""
-            }
-          }
-        },
-        "block_order": [
-          "announcement-pt-0"
-        ],
         "settings": {
         }
       },
@@ -107,8 +94,8 @@
           "announcement-hk-0": {
             "type": "announcement",
             "settings": {
-              "text": "Orders over HK$2400 benefit from free shipping.",
-              "color_scheme": "background-1",
+              "text": "Welcome to our store",
+              "color_scheme": "accent-1",
               "link": ""
             }
           }
