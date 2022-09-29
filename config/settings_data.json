@@ -107,8 +107,8 @@
           "announcement-hk-0": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to our store",
-              "color_scheme": "accent-1",
+              "text": "Orders over HK$2400 benefit from free shipping.",
+              "color_scheme": "background-1",
               "link": ""
             }
           }
@@ -125,8 +125,8 @@
           "announcement-uk-0": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to our store",
-              "color_scheme": "accent-1",
+              "text": "Orders over £240 benefit from free shipping.",
+              "color_scheme": "background-1",
               "link": ""
             }
           }
