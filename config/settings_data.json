@@ -82,6 +82,60 @@
         "type": "go-cart",
         "settings": {
         }
+      },
+      "announcement-pt": {
+        "type": "announcement-pt",
+        "blocks": {
+          "announcement-pt-0": {
+            "type": "announcement",
+            "settings": {
+              "text": "Orders over €144 benefit from free shipping.",
+              "color_scheme": "background-1",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "announcement-pt-0"
+        ],
+        "settings": {
+        }
+      },
+      "announcement-hk": {
+        "type": "announcement-hk",
+        "blocks": {
+          "announcement-hk-0": {
+            "type": "announcement",
+            "settings": {
+              "text": "Welcome to our store",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "announcement-hk-0"
+        ],
+        "settings": {
+        }
+      },
+      "announcement-uk": {
+        "type": "announcement-uk",
+        "blocks": {
+          "announcement-uk-0": {
+            "type": "announcement",
+            "settings": {
+              "text": "Welcome to our store",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "announcement-uk-0"
+        ],
+        "settings": {
+        }
       }
     },
     "content_for_index": [
