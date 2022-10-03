@@ -85,6 +85,19 @@
       },
       "announcement-pt": {
         "type": "announcement-pt",
+        "blocks": {
+          "bb8348aa-1798-43c3-bdfc-ad93538c86a8": {
+            "type": "announcement",
+            "settings": {
+              "text": "Orders over €144 benefit from free shipping.",
+              "color_scheme": "background-1",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "bb8348aa-1798-43c3-bdfc-ad93538c86a8"
+        ],
         "settings": {
         }
       },
