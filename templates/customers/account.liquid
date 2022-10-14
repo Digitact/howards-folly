@@ -237,7 +237,9 @@
         console.log(data);        
         if (data.error!==undefined) {
           $("#referralError").html(data.error);
-        }
+        } else {
+          updateReferralCode();
+        }        
       });
   
       event.preventDefault();
