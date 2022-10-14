@@ -168,8 +168,8 @@
 <form style="margin:0;" id="referralForm" method="POST" action="{% if shop.permanent_domain == 'winehub-demo.myshopify.com' %}https://wineclub-demo.digitact.co.uk{% else %}https://howards-folly-wine.digitact.co.uk{% endif %}/add_referrer/{{customer.id}}">
         <div id="referralError" style="color:red;"></div>
         <strong>Enter the code of the friend that referred you: </strong>
-        <input id="customer_id" type="hidden" name="customer_id" value="{{customer.id}}" style="padding: 1.2rem 1.2rem 1.3rem; border: 2px #000 solid; font-family: Garamond, Baskerville, Caslon, serif; font-size: 15px;">
-        <input id="referrer_code" type="text" name="referrerCode">
+        <input id="customer_id" type="hidden" name="customer_id" value="{{customer.id}}">
+        <input id="referrer_code" type="text" name="referrerCode" style="padding: 1.2rem 1.2rem 1.3rem; border: 2px #000 solid; font-family: Garamond, Baskerville, Caslon, serif; font-size: 15px;">
         <button type="submit">Submit</button>       
 </form>        
       </div> 
