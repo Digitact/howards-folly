@@ -103,6 +103,8 @@
         {%- endif -%}
       {% endpaginate %}
 
+{% if shop.permanent_domain == 'howards-folly-wine.myshopify.com' or shop.permanent_domain == 'howards-folly-hk.myshopify.com' %}
+                          
       <br /><br />
 <style>
 
@@ -289,7 +291,9 @@
   }        
         
       </script>
-      
+
+  {% endif %} 
+  
     </div>
   
     <div>
