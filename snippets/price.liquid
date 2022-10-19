@@ -45,13 +45,13 @@
         - div.price__sale: Displayed when a variant is a sale
     {%- endcomment -%}
     <div class="price__regular">
-      <div>
+      <div style="width: 50%;">
         <div class="price-item">{{ 'products.product.price.regular_price' | t }}</div>
         <div class="price-value">
           {{ money_price }}
         </div>
       </div>
-      <div>
+      <div style="width: 50%;">
         <div class="price-item">Member Price</div>
         <div class="price-value">
           {{ member_price }}
