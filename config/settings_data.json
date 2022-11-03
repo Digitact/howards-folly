@@ -89,7 +89,7 @@
           "bb8348aa-1798-43c3-bdfc-ad93538c86a8": {
             "type": "announcement",
             "settings": {
-              "text": "Orders over €144 benefit from free shipping.",
+              "text": "Orders over €150 benefit from free shipping.",
               "color_scheme": "background-1",
               "link": ""
             }
@@ -107,7 +107,7 @@
           "announcement-hk-0": {
             "type": "announcement",
             "settings": {
-              "text": "Orders over HK$2400 benefit from free shipping.",
+              "text": "Orders over HK$2500 benefit from free shipping.",
               "color_scheme": "background-1",
               "link": ""
             }
@@ -125,7 +125,7 @@
           "announcement-uk-0": {
             "type": "announcement",
             "settings": {
-              "text": "Orders over £240 benefit from free shipping.",
+              "text": "Orders over £250 benefit from free shipping.",
               "color_scheme": "background-1",
               "link": ""
             }
