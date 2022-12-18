@@ -6,11 +6,25 @@
     {{ page.content }}
   </div>
 </div>
-<div id="root"></div>
+{% if shop.permanent_domain=='howards-folly-uk.myshopify.com' %}
+<script>
+  window.permanent_domain="{{ shop.permanent_domain }}";
+  window.asset_url="https://howards-folly-uk.digitact.co.uk";
+  window.customer_id="{{customer.id}}";
+  window.customer_email="{{customer.email}}";
+  window.customer_hash="{{ customer.id | append: "WineHub" | append: customer.email | md5 }}";
+</script>
+<div id="wine-subscription-stripe"></div>
+<script defer="defer" src="https://howards-folly-uk.digitact.co.uk/wine-subscription-stripe/assets/index.a320428f.js"></script>
+<link href="https://howards-folly-uk.digitact.co.uk/wine-subscription-stripe/assets/index.8bf75da7.css" rel="stylesheet">
+<noscript>You need to enable JavaScript to access the wine subscription process.</noscript>
+{% else %}
 <script>
   window.permanent_domain="{{ shop.permanent_domain }}";
   window.asset_url="https://howards-folly-wine.digitact.co.uk/";
 </script>
+<div id="root"></div>
 <script defer="defer" src="https://howards-folly-wine.digitact.co.uk/wine-subscription-mock/static/js/main.ace653ff.js"></script>
 <link href="https://howards-folly-wine.digitact.co.uk/wine-subscription-mock/static/css/main.1def488d.css" rel="stylesheet">
 <noscript>You need to enable JavaScript to access the wine subscription process.</noscript>
+{% endif %}
