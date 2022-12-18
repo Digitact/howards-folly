@@ -6,14 +6,7 @@
     {{ page.content }}
   </div>
 </div>
-  {% if shop.permanent_domain == 'howards-folly-uk.myshopify.com' %}
-    'https://howards-folly-uk.digitact.co.uk';
-  {% else %}
-    'https://howards-folly-wine.digitact.co.uk';
-  {% endif %} 
-
 {% if shop.permanent_domain == "howards-folly-uk.myshopify.com" %}
-  qwe
 <script>
   window.permanent_domain="{{ shop.permanent_domain }}";
   window.asset_url="https://howards-folly-uk.digitact.co.uk";
@@ -26,7 +19,6 @@
 <link href="https://howards-folly-uk.digitact.co.uk/wine-subscription-stripe/assets/index.8bf75da7.css" rel="stylesheet">
 <noscript>You need to enable JavaScript to access the wine subscription process.</noscript>
 {% else %}
-  asd
 <script>
   window.permanent_domain="{{ shop.permanent_domain }}";
   window.asset_url="https://howards-folly-wine.digitact.co.uk/";
