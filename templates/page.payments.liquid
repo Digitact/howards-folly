@@ -81,7 +81,7 @@
               row += '</td>';
               row += '<td headers="RowOrder ColumnAction" role="cell" style="padding:1.2rem;">';
               {% if shop.permanent_domain == "howards-folly-uk.myshopify.com" %}
-                row += '<a class="button button--primary" href="https://howards-folly-uk.digitact.co.uk/stripe/update/{{ customer.id }}}">Delete</a>';
+                row += '<a class="button button--primary" href="https://howards-folly-uk.digitact.co.uk/stripe/update/{{ customer.id }}">Update</a>';
               {% else %}
         	  row += '<button class="button button--primary" style="margin:0;" onClick="updatePayment(\''+data[index].shopifyId+'\');">Update</button>';              
               //row += '<button class="button button--primary" href="https://howards-folly-wine.digitact.co.uk/updatepaymentmethod/'+data[index].shopifyId+'">Update</button> ';
