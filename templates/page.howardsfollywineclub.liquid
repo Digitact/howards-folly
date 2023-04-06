@@ -24,7 +24,7 @@
   window.asset_url="https://howards-folly-wine.digitact.co.uk/";
 </script>
 <div id="root"></div>
-<link href="https://howards-folly-wine.digitact.co.uk/wine-subscription-mock/static/css/main.1def488d.css" rel="stylesheet">
-<script type="module" src="https://howards-folly-wine.digitact.co.uk/wine-subscription-mock/static/js/main.ace653ff.js"></script>
+{{ 'main.1def488d.css' | asset_url | stylesheet_tag }}
+{{ 'main.ace653ff.js' | asset_url | script_tag }}
 <noscript>You need to enable JavaScript to access the wine subscription process.</noscript>
 {% endif %}
