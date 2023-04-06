@@ -15,8 +15,9 @@
   window.customer_hash="{{ customer.id | append: "WineHub" | append: customer.email | md5 }}";
 </script>
 <div id="wine-subscription-stripe"></div>
-<script defer="defer" src="https://howards-folly-uk.digitact.co.uk/wine-subscription-stripe/assets/index.bf0b0fa8.js"></script>
 <link href="https://howards-folly-uk.digitact.co.uk/wine-subscription-stripe/assets/index.3bed8a8f.css" rel="stylesheet">
+<script type="module" crossorigin src="https://howards-folly-uk.digitact.co.uk/wine-subscription-stripe/assets/index.71601291.js"></script>
+
 <noscript>You need to enable JavaScript to access the wine subscription process.</noscript>
 {% else %}
 <script>
@@ -24,7 +25,7 @@
   window.asset_url="https://howards-folly-wine.digitact.co.uk/";
 </script>
 <div id="root"></div>
-<script defer="defer" src="https://howards-folly-wine.digitact.co.uk/wine-subscription-mock/static/js/main.ace653ff.js"></script>
 <link href="https://howards-folly-wine.digitact.co.uk/wine-subscription-mock/static/css/main.1def488d.css" rel="stylesheet">
+<script type="module" crossorigin src="https://howards-folly-wine.digitact.co.uk/wine-subscription-mock/static/js/main.ace653ff.js"></script>
 <noscript>You need to enable JavaScript to access the wine subscription process.</noscript>
 {% endif %}
