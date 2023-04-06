@@ -15,9 +15,8 @@
   window.customer_hash="{{ customer.id | append: "WineHub" | append: customer.email | md5 }}";
 </script>
 <div id="wine-subscription-stripe"></div>
-<link href="https://howards-folly-uk.digitact.co.uk/wine-subscription-stripe/assets/index.3bed8a8f.css" rel="stylesheet">
-<script type="module" src="https://howards-folly-uk.digitact.co.uk/wine-subscription-stripe/assets/index.71601291.js"></script>
-
+{{ 'index.3bed8a8f.css' | asset_url | stylesheet_tag }}
+{{ 'index.71601291.js' | asset_url | script_tag }}
 <noscript>You need to enable JavaScript to access the wine subscription process.</noscript>
 {% else %}
 <script>
