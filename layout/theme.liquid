@@ -230,6 +230,8 @@
     </script>
     {%- section 'go-cart' -%}
 
+    <!-- Start add member pricing discount to cart -->
+
     {%- if customer.tags contains 'active_wine_club' -%}
     <script>
       // Setup the Apply Discount Code URL
@@ -247,6 +249,8 @@
       window.wineclubDiscount = 0.8;
     </script>
     {%- endif -%}
+
+    <!-- End add member pricing discount to cart -->
     
     <div id="geo-location-modal" class="geo-modal">
 
