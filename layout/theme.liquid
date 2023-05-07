@@ -237,7 +237,7 @@
       // Setup the Apply Discount Code URL
       let shopDomain = "{{ shop.permanent_domain }}";
       let discountCode = "MEMBER-PRICING";
-      let discountApplyUrl = "https://" + shopDomain + "/discount/" + discountCode;
+      let discountApplyUrl = "https://" + window.location.hostname + "/discount/" + discountCode;
       	
       // Applies discount using hidden iframe to the checkout session
       let i = document.createElement('iframe');
