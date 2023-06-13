@@ -90,7 +90,7 @@
           "bb8348aa-1798-43c3-bdfc-ad93538c86a8": {
             "type": "announcement",
             "settings": {
-              "text": "Orders over €150 benefit from free shipping.",
+              "text": "Envio gratuito em encomendas acima de 150€.",
               "color_scheme": "background-1",
               "link": ""
             }
