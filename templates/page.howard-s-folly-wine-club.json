@@ -21,11 +21,23 @@
           "settings": {
             "text": ""
           }
+        },
+        "93bdbbb4-a34e-457e-8978-ce2b8e72571c": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Subscreva aqui",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
         }
       },
       "block_order": [
         "template--19221552496974__1aa6920a-2a34-4655-b6b1-df0a345ae390-16885426890c85e3ac-0",
-        "template--19221552496974__1aa6920a-2a34-4655-b6b1-df0a345ae390-16885426890c85e3ac-1"
+        "template--19221552496974__1aa6920a-2a34-4655-b6b1-df0a345ae390-16885426890c85e3ac-1",
+        "93bdbbb4-a34e-457e-8978-ce2b8e72571c"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/hf_insta-38.jpg",
