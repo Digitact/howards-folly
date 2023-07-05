@@ -6,6 +6,55 @@
       "settings": {
       }
     },
+    "61a5c5aa-5d8e-438d-9490-8a1d3e5b7e69": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19221552496974__61a5c5aa-5d8e-438d-9490-8a1d3e5b7e69-16885497705c6c1f5e-0": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<h3><strong>Dois envios por ano: <\/strong>Envios automáticos de duas caixas de 12 garrafas das colheitas correntes.<\/h3>"
+          }
+        },
+        "5fc5562a-1110-4c98-b3b8-bcc9c52fcf7f": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<h3><strong>20% de desconto: <\/strong>todas as compras com desconto.<\/h3>"
+          }
+        },
+        "template--19221552496974__61a5c5aa-5d8e-438d-9490-8a1d3e5b7e69-16885497705c6c1f5e-1": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<h3><strong>Direito de preferência: <\/strong>vinhos de edição limitada e super premium com 20% de desconto.<\/h3><h3><\/h3>"
+          }
+        },
+        "template--19221552496974__61a5c5aa-5d8e-438d-9490-8a1d3e5b7e69-16885497705c6c1f5e-2": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<h3><strong>Eventos especiais: <\/strong>Convite direto para jantares especiais e degustações com 20% de desconto.<\/h3><h3><\/h3>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19221552496974__61a5c5aa-5d8e-438d-9490-8a1d3e5b7e69-16885497705c6c1f5e-0",
+        "5fc5562a-1110-4c98-b3b8-bcc9c52fcf7f",
+        "template--19221552496974__61a5c5aa-5d8e-438d-9490-8a1d3e5b7e69-16885497705c6c1f5e-1",
+        "template--19221552496974__61a5c5aa-5d8e-438d-9490-8a1d3e5b7e69-16885497705c6c1f5e-2"
+      ],
+      "settings": {
+        "title": "Junte-se ao nosso Clube deVinho",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Subscreva aqui",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
     "1aa6920a-2a34-4655-b6b1-df0a345ae390": {
       "type": "image-banner",
       "blocks": {
@@ -89,6 +138,7 @@
   },
   "order": [
     "main",
+    "61a5c5aa-5d8e-438d-9490-8a1d3e5b7e69",
     "1aa6920a-2a34-4655-b6b1-df0a345ae390",
     "71dfa684-b122-4657-98a0-6328d0e8689a"
   ]
