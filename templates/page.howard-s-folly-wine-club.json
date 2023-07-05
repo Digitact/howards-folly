@@ -45,7 +45,7 @@
         "template--19221552496974__61a5c5aa-5d8e-438d-9490-8a1d3e5b7e69-16885497705c6c1f5e-2"
       ],
       "settings": {
-        "title": "Junte-se ao nosso Clube deVinho",
+        "title": "",
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "left",
@@ -70,23 +70,11 @@
           "settings": {
             "text": "Dois envios por ano, 20% de desconto em todas as compras, direito de preferência nas produções limitadas, convite direto para jantares especiais e degustações."
           }
-        },
-        "template--19221552496974__1aa6920a-2a34-4655-b6b1-df0a345ae390-16885426890c85e3ac-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Subscrever",
-            "button_link_1": "shopify:\/\/pages\/wine-club-shipments",
-            "button_style_secondary_1": false,
-            "button_label_2": "Mais informação",
-            "button_link_2": "https:\/\/pt.howardsfollywine.com\/pages\/wine-club-howards-folly",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
         "template--19221552496974__1aa6920a-2a34-4655-b6b1-df0a345ae390-16885426890c85e3ac-0",
-        "template--19221552496974__1aa6920a-2a34-4655-b6b1-df0a345ae390-16885426890c85e3ac-1",
-        "template--19221552496974__1aa6920a-2a34-4655-b6b1-df0a345ae390-16885426890c85e3ac-2"
+        "template--19221552496974__1aa6920a-2a34-4655-b6b1-df0a345ae390-16885426890c85e3ac-1"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/hf_insta-38.jpg",
