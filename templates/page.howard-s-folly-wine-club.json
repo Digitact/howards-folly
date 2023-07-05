@@ -99,47 +99,11 @@
         "button_link": "https:\/\/pt.howardsfollywine.com\/pages\/wine-club-shipments",
         "swipe_on_mobile": false
       }
-    },
-    "71dfa684-b122-4657-98a0-6328d0e8689a": {
-      "type": "rich-text",
-      "blocks": {
-        "template--19221552496974__71dfa684-b122-4657-98a0-6328d0e8689a-1688548559034a937d-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Junte-se ao nosso Clube de Vinho",
-            "heading_size": "h1"
-          }
-        },
-        "template--19221552496974__71dfa684-b122-4657-98a0-6328d0e8689a-1688548559034a937d-1": {
-          "type": "text",
-          "settings": {
-            "text": "<h3>Dois envios por ano - Envios automáticos de 2 caixas de 12 garrafas das colheitas correntes.<\/h3><h3>20% de desconto em todos os vinhos.<\/h3><h3>Vinhos de edição limitada e super premium com 20% de desconto.<\/h3><h3>Convite direto para jantares especiais e degustações.<\/h3>"
-          }
-        },
-        "template--19221552496974__71dfa684-b122-4657-98a0-6328d0e8689a-1688548559034a937d-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Subscreva aqui",
-            "button_link": "https:\/\/pt.howardsfollywine.com\/pages\/wine-club-shipments",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--19221552496974__71dfa684-b122-4657-98a0-6328d0e8689a-1688548559034a937d-0",
-        "template--19221552496974__71dfa684-b122-4657-98a0-6328d0e8689a-1688548559034a937d-1",
-        "template--19221552496974__71dfa684-b122-4657-98a0-6328d0e8689a-1688548559034a937d-2"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
-      }
     }
   },
   "order": [
     "main",
     "1aa6920a-2a34-4655-b6b1-df0a345ae390",
-    "61a5c5aa-5d8e-438d-9490-8a1d3e5b7e69",
-    "71dfa684-b122-4657-98a0-6328d0e8689a"
+    "61a5c5aa-5d8e-438d-9490-8a1d3e5b7e69"
   ]
 }
