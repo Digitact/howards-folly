@@ -25,10 +25,10 @@
         "template--19221552496974__1aa6920a-2a34-4655-b6b1-df0a345ae390-16885426890c85e3ac-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
+            "button_label_1": "Subscrever",
+            "button_link_1": "shopify:\/\/pages\/wine-club-shipments",
             "button_style_secondary_1": false,
-            "button_label_2": "Button label",
+            "button_label_2": "Mais informações",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
