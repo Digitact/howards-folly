@@ -6,6 +6,39 @@
       "settings": {
       }
     },
+    "1aa6920a-2a34-4655-b6b1-df0a345ae390": {
+      "type": "image-banner",
+      "blocks": {
+        "template--19221552496974__1aa6920a-2a34-4655-b6b1-df0a345ae390-16885426890c85e3ac-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Junte-se ao nosso Clube de Vinho",
+            "heading_size": "medium"
+          }
+        },
+        "template--19221552496974__1aa6920a-2a34-4655-b6b1-df0a345ae390-16885426890c85e3ac-1": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19221552496974__1aa6920a-2a34-4655-b6b1-df0a345ae390-16885426890c85e3ac-0",
+        "template--19221552496974__1aa6920a-2a34-4655-b6b1-df0a345ae390-16885426890c85e3ac-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/hf_insta-38.jpg",
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "show_text_box": false,
+        "image_overlay_opacity": 50,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "61a5c5aa-5d8e-438d-9490-8a1d3e5b7e69": {
       "type": "multicolumn",
       "blocks": {
@@ -55,39 +88,6 @@
         "swipe_on_mobile": false
       }
     },
-    "1aa6920a-2a34-4655-b6b1-df0a345ae390": {
-      "type": "image-banner",
-      "blocks": {
-        "template--19221552496974__1aa6920a-2a34-4655-b6b1-df0a345ae390-16885426890c85e3ac-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Junte-se ao nosso Clube de Vinho",
-            "heading_size": "medium"
-          }
-        },
-        "template--19221552496974__1aa6920a-2a34-4655-b6b1-df0a345ae390-16885426890c85e3ac-1": {
-          "type": "text",
-          "settings": {
-            "text": "Dois envios por ano, 20% de desconto em todas as compras, direito de preferência nas produções limitadas, convite direto para jantares especiais e degustações."
-          }
-        }
-      },
-      "block_order": [
-        "template--19221552496974__1aa6920a-2a34-4655-b6b1-df0a345ae390-16885426890c85e3ac-0",
-        "template--19221552496974__1aa6920a-2a34-4655-b6b1-df0a345ae390-16885426890c85e3ac-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/hf_insta-38.jpg",
-        "image_height": "large",
-        "adapt_height_first_image": false,
-        "desktop_text_box_position": "center",
-        "show_text_box": false,
-        "image_overlay_opacity": 50,
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "71dfa684-b122-4657-98a0-6328d0e8689a": {
       "type": "rich-text",
       "blocks": {
@@ -126,8 +126,8 @@
   },
   "order": [
     "main",
-    "61a5c5aa-5d8e-438d-9490-8a1d3e5b7e69",
     "1aa6920a-2a34-4655-b6b1-df0a345ae390",
+    "61a5c5aa-5d8e-438d-9490-8a1d3e5b7e69",
     "71dfa684-b122-4657-98a0-6328d0e8689a"
   ]
 }
