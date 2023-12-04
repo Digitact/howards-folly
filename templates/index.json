@@ -238,41 +238,6 @@
       "settings": {
       }
     },
-    "7c0e55f9-719c-4ccb-a8bd-3acdeac8c361": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16039415939284__7c0e55f9-719c-4ccb-a8bd-3acdeac8c361-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Reserve no The Folly",
-            "heading_size": "h1"
-          }
-        },
-        "template--16039415939284__7c0e55f9-719c-4ccb-a8bd-3acdeac8c361-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Desfrute de uma experiência alimentar fora de série no nosso restaurante.<\/p>"
-          }
-        },
-        "template--16039415939284__7c0e55f9-719c-4ccb-a8bd-3acdeac8c361-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Reservar mesa",
-            "button_link": "https:\/\/widget.thefork.com\/pt-PT\/d9db470d-62e7-49b0-9b50-70ee34c5baab",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16039415939284__7c0e55f9-719c-4ccb-a8bd-3acdeac8c361-heading-1",
-        "template--16039415939284__7c0e55f9-719c-4ccb-a8bd-3acdeac8c361-text-1",
-        "template--16039415939284__7c0e55f9-719c-4ccb-a8bd-3acdeac8c361-button-1"
-      ],
-      "settings": {
-        "color_scheme": "accent-1",
-        "full_width": true
-      }
-    },
     "5e6231fd-e8e6-4cba-8f61-0f5a6a814d54": {
       "type": "image-with-text",
       "blocks": {
@@ -318,7 +283,6 @@
     "1637134659447da194",
     "163713495016105ee9",
     "pagefly-home",
-    "7c0e55f9-719c-4ccb-a8bd-3acdeac8c361",
     "5e6231fd-e8e6-4cba-8f61-0f5a6a814d54"
   ]
 }
