@@ -2,7 +2,6 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -10,11 +9,24 @@
             "heading": "Wine. Art. Charity.",
             "heading_size": "large"
           }
+        },
+        "bea6e077-ad00-419b-a676-e1525c62bbc1": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
         }
       },
       "block_order": [
-        "heading"
+        "heading",
+        "bea6e077-ad00-419b-a676-e1525c62bbc1"
       ],
+      "disabled": true,
       "settings": {
         "image_height": "medium",
         "adapt_height_first_image": false,
@@ -28,7 +40,6 @@
     },
     "rich_text": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -48,6 +59,7 @@
         "heading",
         "text"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "background-1",
         "full_width": true
@@ -72,7 +84,6 @@
     },
     "16371342804476305f": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "1637134280fd53d2c4-0": {
           "type": "heading",
@@ -104,6 +115,7 @@
         "1637134280fd53d2c4-1",
         "ac882478-d59d-4a54-a76f-569633ff93de"
       ],
+      "disabled": true,
       "settings": {
         "image_height": "medium",
         "adapt_height_first_image": false,
@@ -117,7 +129,6 @@
     },
     "1637134656e2ed707c": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "16371346550ab9a1d7-0": {
           "type": "heading",
@@ -137,6 +148,7 @@
         "16371346550ab9a1d7-0",
         "16371346550ab9a1d7-1"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "background-1",
         "full_width": true
@@ -144,7 +156,6 @@
     },
     "1637134659447da194": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "1637134659ecd9f156-0": {
           "type": "heading",
@@ -176,6 +187,7 @@
         "1637134659ecd9f156-1",
         "1637134659ecd9f156-2"
       ],
+      "disabled": true,
       "settings": {
         "image_height": "small",
         "adapt_height_first_image": false,
@@ -189,7 +201,6 @@
     },
     "163713495016105ee9": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "1637134950f5294aab-0": {
           "type": "column",
@@ -210,6 +221,7 @@
         "1637134950f5294aab-0",
         "1637134950f5294aab-1"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "image_width": "full",
@@ -225,6 +237,41 @@
       "type": "pagefly-home",
       "settings": {
       }
+    },
+    "7c0e55f9-719c-4ccb-a8bd-3acdeac8c361": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16039415939284__7c0e55f9-719c-4ccb-a8bd-3acdeac8c361-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Reserve no The Folly",
+            "heading_size": "h1"
+          }
+        },
+        "template--16039415939284__7c0e55f9-719c-4ccb-a8bd-3acdeac8c361-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Desfrute de uma experiência alimentar fora de série no nosso restaurante.<\/p>"
+          }
+        },
+        "template--16039415939284__7c0e55f9-719c-4ccb-a8bd-3acdeac8c361-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Reservar mesa",
+            "button_link": "https:\/\/widget.thefork.com\/pt-PT\/d9db470d-62e7-49b0-9b50-70ee34c5baab",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16039415939284__7c0e55f9-719c-4ccb-a8bd-3acdeac8c361-heading-1",
+        "template--16039415939284__7c0e55f9-719c-4ccb-a8bd-3acdeac8c361-text-1",
+        "template--16039415939284__7c0e55f9-719c-4ccb-a8bd-3acdeac8c361-button-1"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "full_width": true
+      }
     }
   },
   "order": [
@@ -235,6 +282,7 @@
     "1637134656e2ed707c",
     "1637134659447da194",
     "163713495016105ee9",
-    "pagefly-home"
+    "pagefly-home",
+    "7c0e55f9-719c-4ccb-a8bd-3acdeac8c361"
   ]
 }
