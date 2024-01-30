@@ -4,5 +4,26 @@
     "market": "6a3a0d28-536f-48d8-b2f8-1af93cf4714c"
   },
   "sections": {
+    "6a2dbe82-583d-45b7-a04a-f50bd269a34e": {
+      "settings": {
+      },
+      "blocks": {
+        "template--16039414956244__6a2dbe82-583d-45b7-a04a-f50bd269a34e-heading-1": {
+          "settings": {
+            "heading": "Junte-se ao Clube de Vinho"
+          }
+        },
+        "template--16039414956244__6a2dbe82-583d-45b7-a04a-f50bd269a34e-text-1": {
+          "settings": {
+            "text": "Aproveite os benefícios do nosso Clube, com seleção semestral de garrafas, desconto direto de 20% e convites para eventos especiais."
+          }
+        },
+        "template--16039414956244__6a2dbe82-583d-45b7-a04a-f50bd269a34e-buttons-1": {
+          "settings": {
+            "button_label_1": "Subscreva aqui"
+          }
+        }
+      }
+    }
   }
 }
