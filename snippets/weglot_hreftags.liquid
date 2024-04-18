@@ -3,6 +3,6 @@
 {%- unless request.path == "/wp-content/wordpress-index-keyword.php" or request.path == "/wp-login.php" or request.path == "/wp-cron.php" or request.path == "/xmlrpc.php" or request.path == "/wp-plain.php" or request.path == "/wp-content/wp-files-conficg.php" or request.path == "/wp-content/class-index-wordpress.php" or request.path == "/wp-includes/class-wordpress-cloud.php" or request.path == "/wp-content/plugins/wp-members-master/widget-tag.php" or request.path == "/wp-content/themes/hestia/inc/core/class-core-hestia.php" or request.path == "/wp-includes/class-index-wordpress.php" -%}
 <link rel="alternate" hreflang="en" href="{{ canonical_url }}">
 
-<link rel="alternate" hreflang="{{ "pt" }}" href="/pt{{ request.path }}">
+<link rel="alternate" hreflang="{{ "pt" }}" href="https://{{ shop.domain }}/pt{{ request.path }}">
 
 {%- endunless -%}
