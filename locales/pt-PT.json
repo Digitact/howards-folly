@@ -440,5 +440,12 @@
       "signup_form_success": "We will send you an email right before we open!",
       "password_link": "Enter using password"
     }
+  },
+  "shopify": {
+    "checkout": {
+      "payment": {
+        "shop_pay_ideal_unavailable_error": "iDEAL não está disponível para este pedido. Escolha outro método de pagamento."
+      }
+    }
   }
 }
