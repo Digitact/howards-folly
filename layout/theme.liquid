@@ -168,13 +168,14 @@
 
   {% render 'weglot_hreftags' %}
 {% render 'weglot_switcher' %}
+{% if shop.url=="howards-folly-wine.myshopify.com" %}   
 <script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
 <script>
     Weglot.initialize({
         api_key: 'wg_cd0c45692720f39a1679b91007e03f940'
     });
 </script>
-    
+{% endif %}
 </head>
 
   <body class="gradient">
@@ -189,6 +190,7 @@
     {% section 'header' %}
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
       {{ content_for_layout }}
+TEST: {{ shop.url }}
     </main>
 
     {% section 'footer' %}
