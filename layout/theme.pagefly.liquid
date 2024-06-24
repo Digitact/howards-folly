@@ -4,7 +4,7 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
 {% endcomment %}
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
-  <head>{% render 'pagefly-head' %}
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -147,6 +147,9 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
           font-size: 1.6rem;
         }
       }
+      .weglot-container {
+        padding-top: 6px;
+      }
     {% endstyle %}
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
@@ -169,7 +172,20 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
 
   {% render 'weglot_hreftags' %}
 {% render 'weglot_switcher' %}
-</head>
+{% if shop.permanent_domain contains 'howards-folly-wine.myshopify.com' %}
+<!-- ADD WEGLOT -->
+<script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
+<script>
+    Weglot.initialize({
+        api_key: 'wg_cd0c45692720f39a1679b91007e03f940'
+    });
+</script>
+{% else %}
+<!-- DONT ADD WEGLOT -->
+{% endif %}
+{% include 'pagefly-app-header' %}</head>
 
-  <body class="gradient"><div class="pagefly-container">{{ content_for_layout }}</div></body>
+  <body class="gradient"><div class="pagefly-container">
+              {{ content_for_layout }}
+            </div></body>
 </html>
