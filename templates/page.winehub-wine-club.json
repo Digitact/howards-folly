@@ -13,9 +13,27 @@
       "type": "main-page",
       "settings": {
       }
+    },
+    "1720681160fa3ea5b9": {
+      "type": "apps",
+      "blocks": {
+        "winehub_wine_club_wine_club_sign_up_xgLnqB": {
+          "type": "shopify:\/\/apps\/winehub-wine-club\/blocks\/wine-club-sign-up\/c0ed40b1-a5e6-4ec9-bd28-157981fb797f",
+          "settings": {
+            "wine_club_id": 1
+          }
+        }
+      },
+      "block_order": [
+        "winehub_wine_club_wine_club_sign_up_xgLnqB"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1720681160fa3ea5b9"
   ]
 }
