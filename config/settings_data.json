@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "colors_solid_button_labels": "#FFFFFF",
@@ -141,7 +150,16 @@
     },
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "14250838631765587731": {
+        "type": "shopify:\/\/apps\/winehub-wine-club\/blocks\/customer-portal-redirect\/c0ed40b1-a5e6-4ec9-bd28-157981fb797f",
+        "disabled": false,
+        "settings": {
+          "path": "\/apps\/winehub"
+        }
+      }
+    }
   },
   "presets": {
     "Default": {
