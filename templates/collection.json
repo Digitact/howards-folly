@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "banner": {
@@ -9,6 +18,9 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "custom_css": [
+        "@media screen and (max-width: 767px) {.card-information__wrapper {display: flex; flex-direction: column; align-content: center; justify-content: center; } .card-information__text {height: 40px; } .price__regular {flex-direction: column; justify-content: center; align-content: center; margin-left: auto; margin-right: auto; width: 100%; gap: 16px; } .price__regular > div {width: 100% !important; }}"
+      ],
       "settings": {
         "products_per_page": 16,
         "image_ratio": "square",
