@@ -253,7 +253,7 @@
         "template--16039415939284__5e6231fd-e8e6-4cba-8f61-0f5a6a814d54-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Eat at The Folly"
+            "heading": "Dine with us at The Folly"
           }
         },
         "template--16039415939284__5e6231fd-e8e6-4cba-8f61-0f5a6a814d54-text-1": {
@@ -265,7 +265,7 @@
         "template--16039415939284__5e6231fd-e8e6-4cba-8f61-0f5a6a814d54-button-1": {
           "type": "button",
           "settings": {
-            "button_label": "Book a Table",
+            "button_label": "Make a Reservation",
             "button_link": "https:\/\/reservation.dish.co\/widget\/hydra-f527eb83-9131-4343-bfbf-413cdc2ac6f7?fbclid=PAZXh0bgNhZW0CMTEAAaZbGo9lXvdZFGpJ45dOcq2sJ2xc81IVw4F_EVYi24XAC4NLKdvTUNRKd8A_aem_AffEKnuwaEZ8LU-rzzqRcen5XR24kuVugqJa7M3NZ3NnY8c0yUM_OH-R6a51mP-En-8hw2lsQQNSM0-TF1GoaUfK"
           }
         }
