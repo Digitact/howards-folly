@@ -15,20 +15,20 @@
         "template--16039415251156__2b4007ac-96ae-425a-91a1-6184fe855a2c-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Reserve no The Folly",
+            "heading": "The Folly",
             "heading_size": "medium"
           }
         },
         "template--16039415251156__2b4007ac-96ae-425a-91a1-6184fe855a2c-text-1": {
           "type": "text",
           "settings": {
-            "text": "Desfrute de uma experiência alimentar fora de série no nosso restaurante."
+            "text": "Enjoy a unique dining experience at our restaurant."
           }
         },
         "template--16039415251156__2b4007ac-96ae-425a-91a1-6184fe855a2c-buttons-1": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Reservar mesa ✔",
+            "button_label_1": "Make a Reservation",
             "button_link_1": "https:\/\/reservation.dish.co\/widget\/hydra-f527eb83-9131-4343-bfbf-413cdc2ac6f7?fbclid=PAZXh0bgNhZW0CMTEAAaZbGo9lXvdZFGpJ45dOcq2sJ2xc81IVw4F_EVYi24XAC4NLKdvTUNRKd8A_aem_AffEKnuwaEZ8LU-rzzqRcen5XR24kuVugqJa7M3NZ3NnY8c0yUM_OH-R6a51mP-En-8hw2lsQQNSM0-TF1GoaUfK",
             "button_style_secondary_1": false,
             "button_label_2": "",
