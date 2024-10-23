@@ -97,6 +97,11 @@
                 {{ product.metafields.wine_fields.varieties.value }}
               </div>
             {% endif %}
+            {% if product.metafields.winehub.varieties.value %}
+              <div style="margin-bottom: 0.3rem">
+                {{ product.metafields.winehub.varieties.value }}
+              </div>
+            {% endif %}
             <div class="line-separated-elements">
               {% if product.metafields.wine_fields.alcohol.value %}
                 <div>
@@ -106,6 +111,16 @@
               {% if product.metafields.wine_fields.bottle_size.value %}
                 <div>
                   <strong>Bottle size:</strong> {{ product.metafields.wine_fields.bottle_size.value }}ml
+                </div>
+              {% endif %}
+              {% if product.metafields.winehub.alcohol.value %}
+                <div>
+                  <strong>Alcohol:</strong> {{ product.metafields.winehub.alcohol.value }}
+                </div>
+              {% endif %}
+              {% if product.metafields.winehub.bottle_size.value %}
+                <div>
+                  <strong>Bottle size:</strong> {{ product.metafields.winehub.bottle_size.value }}ml
                 </div>
               {% endif %}
             </div>
