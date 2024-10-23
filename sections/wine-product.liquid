@@ -482,6 +482,41 @@
           </div>
         {%- endif -%}
       {%- endfor -%}
+      {%- for field in product.metafields.winehub -%}
+        {%- if valid_fields contains field[0] -%}
+          <div class="wine-metadata-item">
+            {%- case field[0] -%}
+            {%- when 'winemaking_notes' -%}
+              <div class="wine-metadata-item-icon" style="background: #114c67">
+                <i class="flaticon-012-wine-5"></i>
+              </div>
+              <h3>Ageing process</h3>
+              <p>{{ field[1] }}</p>
+            {%- when 'growing_conditions' -%}
+              <div class="wine-metadata-item-icon" style="background: #398011;">
+                <i class="flaticon-048-field"></i>
+              </div>
+              <h3>Growing conditions</h3>
+              <p>{{ field[1] }}</p>
+            {%- when 'body' -%}
+              <h3>Body</h3>
+              <p>{{ field[1] }}</p>
+            {%- when 'mouth' -%}
+              <div class="wine-metadata-item-icon" style="background: #6d895d">
+                <i class="flaticon-008-wine-2"></i>
+              </div>
+              <h3>Flavour</h3>
+              <p>{{ field[1] }}</p>
+            {%- when 'nose' -%}
+              <div class="wine-metadata-item-icon" style="background: #6c2131">
+                <i class="flaticon-033-wine-tasting"></i>
+              </div>
+              <h3>Aroma</h3>
+              <p>{{ field[1] }}</p>
+            {%- endcase -%}
+          </div>
+        {%- endif -%}
+      {%- endfor -%}
     </div>
   </section>
   {% if product.tags contains 'customisable' %}
