@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner": {
@@ -60,7 +60,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>We love the diversity of Portugal's grape varietals and aim to make the best wine from each vintage. This approach and the skill and passion of our team has resulted in consistent production of award winning wines.<\/p>"
+            "text": "<p>We love the diversity of Portugal's grape varietals and aim to make the best wine from each vintage. This approach and the skill and passion of our team has resulted in consistent production of award winning wines.</p>"
           }
         }
       },
@@ -149,7 +149,7 @@
         "16371346550ab9a1d7-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Howard’s Folly is an inspiring blend of three key ingredients: an <em>innovative<\/em> partnership between Chief Winemaker, David Baverstock, and entrepreneur, Howard Bilton; their joint <em>passion<\/em> to unlock the best of Portugal’s grape varietals; and, a <em>mission<\/em> to give something back through sponsorship of an arts-based charity for underprivileged children, the Sovereign Art Foundation.<\/p><p><em>Innovation<\/em>, <em>passion<\/em> and <em>mission<\/em> drive everything we do, resulting in consistent production of delicious award-winning wines.<\/p>"
+            "text": "<p>Howard’s Folly is an inspiring blend of three key ingredients: an <em>innovative</em> partnership between Chief Winemaker, David Baverstock, and entrepreneur, Howard Bilton; their joint <em>passion</em> to unlock the best of Portugal’s grape varietals; and, a <em>mission</em> to give something back through sponsorship of an arts-based charity for underprivileged children, the Sovereign Art Foundation.</p><p><em>Innovation</em>, <em>passion</em> and <em>mission</em> drive everything we do, resulting in consistent production of delicious award-winning wines.</p>"
           }
         }
       },
@@ -215,14 +215,14 @@
           "type": "column",
           "settings": {
             "title": "Art",
-            "text": "<p>Inspired by the visual arts<\/p>"
+            "text": "<p>Inspired by the visual arts</p>"
           }
         },
         "1637134950f5294aab-1": {
           "type": "column",
           "settings": {
             "title": "Our People",
-            "text": "<p>Passionate about winemaking<\/p>"
+            "text": "<p>Passionate about winemaking</p>"
           }
         }
       },
@@ -244,8 +244,7 @@
     },
     "pagefly-home": {
       "type": "pagefly-home",
-      "settings": {
-      }
+      "settings": {}
     },
     "5e6231fd-e8e6-4cba-8f61-0f5a6a814d54": {
       "type": "image-with-text",
@@ -259,14 +258,14 @@
         "template--16039415939284__5e6231fd-e8e6-4cba-8f61-0f5a6a814d54-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Enjoy a unique dining experience at our restaurant.<\/p>"
+            "text": "<p>Enjoy a unique dining experience at our restaurant.</p>"
           }
         },
         "template--16039415939284__5e6231fd-e8e6-4cba-8f61-0f5a6a814d54-button-1": {
           "type": "button",
           "settings": {
             "button_label": "Make a Reservation",
-            "button_link": "https:\/\/reservation.dish.co\/widget\/hydra-f527eb83-9131-4343-bfbf-413cdc2ac6f7?fbclid=PAZXh0bgNhZW0CMTEAAaZbGo9lXvdZFGpJ45dOcq2sJ2xc81IVw4F_EVYi24XAC4NLKdvTUNRKd8A_aem_AffEKnuwaEZ8LU-rzzqRcen5XR24kuVugqJa7M3NZ3NnY8c0yUM_OH-R6a51mP-En-8hw2lsQQNSM0-TF1GoaUfK"
+            "button_link": "https://reservation.dish.co/widget/hydra-f527eb83-9131-4343-bfbf-413cdc2ac6f7?fbclid=PAZXh0bgNhZW0CMTEAAaZbGo9lXvdZFGpJ45dOcq2sJ2xc81IVw4F_EVYi24XAC4NLKdvTUNRKd8A_aem_AffEKnuwaEZ8LU-rzzqRcen5XR24kuVugqJa7M3NZ3NnY8c0yUM_OH-R6a51mP-En-8hw2lsQQNSM0-TF1GoaUfK"
           }
         }
       },
@@ -276,7 +275,7 @@
         "template--16039415939284__5e6231fd-e8e6-4cba-8f61-0f5a6a814d54-button-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Captura_de_ecra_2023-12-04_as_01.07.48.png",
+        "image": "shopify://shop_images/Captura_de_ecra_2023-12-04_as_01.07.48.png",
         "height": "adapt",
         "color_scheme": "accent-1",
         "layout": "image_first"
