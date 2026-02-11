@@ -46,6 +46,9 @@
       },
       "header": {
         "type": "header",
+        "custom_css": [
+          "h2 {font-size: 24px; /* Ajuste o valor conforme necessário */}"
+        ],
         "settings": {
           "color_scheme": "background-1",
           "logo": "shopify://shop_images/logo_folly_icon_7528d9e3-b6f4-41cd-85db-31a819dc25ab.png",
