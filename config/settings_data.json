@@ -47,7 +47,7 @@
       "header": {
         "type": "header",
         "custom_css": [
-          "header, header * {font-size: 14px !important;}"
+          "nav a {font-size: 14px !important;}"
         ],
         "settings": {
           "color_scheme": "background-1",
