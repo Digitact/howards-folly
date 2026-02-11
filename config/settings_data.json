@@ -47,7 +47,7 @@
       "header": {
         "type": "header",
         "custom_css": [
-          "h2 {font-size: 16px; /* Ajuste o valor conforme necessário */}"
+          "html {/* px means \"pixels\". The base font size is now 10 pixels high */ font-size: 10px;}"
         ],
         "settings": {
           "color_scheme": "background-1",
