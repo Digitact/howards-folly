@@ -47,7 +47,7 @@
       "header": {
         "type": "header",
         "custom_css": [
-          "html {/* px means \"pixels\". The base font size is now 10 pixels high */ font-size: 5px;}"
+          "header, header * {font-size: 14px !important;}"
         ],
         "settings": {
           "color_scheme": "background-1",
