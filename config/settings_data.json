@@ -45,8 +45,8 @@
       "header": {
         "type": "header",
         "settings": {
-          "color_scheme": "accent-1",
-          "logo": "shopify://shop_images/HFlogo.png",
+          "color_scheme": "background-1",
+          "logo": "shopify://shop_images/logo_folly_icon_7528d9e3-b6f4-41cd-85db-31a819dc25ab.png",
           "logo_width": 100,
           "logo_position": "middle-left",
           "menu": "main-menu",
