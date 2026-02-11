@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "colors_solid_button_labels": "#FFFFFF",
@@ -19,8 +19,9 @@
     "type_header_font": "garamond_n4",
     "type_body_font": "garamond_n4",
     "page_width": "1200",
-    "social_facebook_link": "https:\/\/www.facebook.com\/howardsfolly\/",
-    "social_instagram_link": "https:\/\/instagram.com\/howardsfollywine\/",
+    "social_facebook_link": "https://www.facebook.com/howardsfolly/",
+    "social_instagram_link": "https://instagram.com/howardsfollywine/",
+    "favicon": "shopify://shop_images/logo_folly_icon_d654d81c-7bae-4703-83f3-e1ea3bc1a431.png",
     "currency_code_enabled": false,
     "sections": {
       "announcement-bar": {
@@ -39,14 +40,13 @@
         "block_order": [
           "b9d9028f-f1b4-4467-a87b-040545c13ae9"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "header": {
         "type": "header",
         "settings": {
           "color_scheme": "accent-1",
-          "logo": "shopify:\/\/shop_images\/HFlogo.png",
+          "logo": "shopify://shop_images/HFlogo.png",
           "logo_width": 100,
           "logo_position": "middle-left",
           "menu": "main-menu",
@@ -70,7 +70,7 @@
             "disabled": true,
             "settings": {
               "heading": "You must be of legal drinking age to purchase alcohol.",
-              "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
+              "subtext": "<p>Share store details, promotions, or brand content with your customers.</p>"
             }
           }
         },
@@ -90,8 +90,7 @@
       },
       "go-cart": {
         "type": "go-cart",
-        "settings": {
-        }
+        "settings": {}
       },
       "announcement-pt": {
         "type": "announcement-pt",
@@ -108,8 +107,7 @@
         "block_order": [
           "bb8348aa-1798-43c3-bdfc-ad93538c86a8"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "announcement-hk": {
         "type": "announcement-hk",
@@ -126,8 +124,7 @@
         "block_order": [
           "announcement-hk-0"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "announcement-uk": {
         "type": "announcement-uk",
@@ -144,32 +141,27 @@
         "block_order": [
           "announcement-uk-0"
         ],
-        "settings": {
-        }
+        "settings": {}
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "14250838631765587731": {
-        "type": "shopify:\/\/apps\/winehub-wine-club\/blocks\/customer-portal-redirect\/c0ed40b1-a5e6-4ec9-bd28-157981fb797f",
+        "type": "shopify://apps/winehub-wine-club/blocks/customer-portal-redirect/c0ed40b1-a5e6-4ec9-bd28-157981fb797f",
         "disabled": false,
         "settings": {
-          "path": "\/apps\/winehub"
+          "path": "/apps/winehub"
         }
       },
       "6987625696575125306": {
-        "type": "shopify:\/\/apps\/weglot-translate-your-store\/blocks\/weglot\/3097482a-fafe-42ff-bc33-ea19e35c4a20",
+        "type": "shopify://apps/weglot-translate-your-store/blocks/weglot/3097482a-fafe-42ff-bc33-ea19e35c4a20",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "pagefly-page-builder": {
-        "type": "shopify:\/\/apps\/pagefly-page-builder\/blocks\/app-embed\/83e179f7-59a0-4589-8c66-c0dddf959200",
+        "type": "shopify://apps/pagefly-page-builder/blocks/app-embed/83e179f7-59a0-4589-8c66-c0dddf959200",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       }
     }
   },
@@ -198,8 +190,7 @@
           "block_order": [
             "announcement-bar-0"
           ],
-          "settings": {
-          }
+          "settings": {}
         }
       }
     },
@@ -219,13 +210,11 @@
           "blocks": {
             "menu": {
               "type": "link_list",
-              "settings": {
-              }
+              "settings": {}
             },
             "text": {
               "type": "text",
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
@@ -241,7 +230,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "@media (max-width: 767px) {footer .page-width {flex-direction: column; } footer .page-width > div {width: 100% !important; \/* background-color: red; *\/ text-align: center; } footer .page-width > div > ul {padding-inline-start: 0; } footer .page-width > div > p, footer .page-width > div > span {text-align: center; } footer .page-width > div:has(> a) {display: flex !important; flex-direction: column; align-items: center; }}"
+      "@media (max-width: 767px) {footer .page-width {flex-direction: column; } footer .page-width > div {width: 100% !important; /* background-color: red; */ text-align: center; } footer .page-width > div > ul {padding-inline-start: 0; } footer .page-width > div > p, footer .page-width > div > span {text-align: center; } footer .page-width > div:has(> a) {display: flex !important; flex-direction: column; align-items: center; }}"
     ]
   }
 }
