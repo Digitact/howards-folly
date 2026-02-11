@@ -47,7 +47,7 @@
       "header": {
         "type": "header",
         "custom_css": [
-          "h2 {font-size: 24px; /* Ajuste o valor conforme necessário */}"
+          "h2 {font-size: 20px; /* Ajuste o valor conforme necessário */}"
         ],
         "settings": {
           "color_scheme": "background-1",
