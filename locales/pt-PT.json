@@ -408,7 +408,7 @@
   "pagefly": {
     "products": {
       "product": {
-        "regular_price": "Regular price",
+        "regular_price": "preço normal",
         "sold_out": "Sold out",
         "unavailable": "Unavailable",
         "on_sale": "Sale",
