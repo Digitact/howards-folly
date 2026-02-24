@@ -49,8 +49,8 @@
         "custom_css": [],
         "settings": {
           "color_scheme": "background-1",
-          "logo": "shopify://shop_images/logo_folly_icon_7528d9e3-b6f4-41cd-85db-31a819dc25ab.png",
-          "logo_width": 100,
+          "logo": "shopify://shop_images/logo_folly.png",
+          "logo_width": 130,
           "logo_position": "middle-left",
           "menu": "main-menu",
           "show_line_separator": true,
