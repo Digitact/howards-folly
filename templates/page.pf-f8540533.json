@@ -11,7 +11,21 @@
   "sections": {
     "pf-f8540533": {
       "type": "pf-f8540533",
-      "settings": {}
+      "settings": {
+        "pf_dc2662e5_value": "Step inside the world of <strong>Howard’s Folly</strong> and experience wine beyond the glass.From hands-on blending workshops to guided tastings and immersive winery tours — each experience is designed to connect you with our story.",
+        "pf_6919564b_value": "At Howard’s Folly, we combine traditional winemaking with a contemporary approach — using smaller tanks to preserve freshness, elegance and precision in every wine.This is where heritage, innovation and purpose come together.",
+        "pf_a620d525_value": "Create your own wine, explore our winery, or enjoy a tasting experience designed around you.&nbsp;Get in touch and let us craft your perfect visit. <br>",
+        "pf_af26ca43_value": "Discover the first urban winery in Portugal, located in the historic town of Estremoz.",
+        "pf_a7ed0ed3_value": "<font color=\"#ffffff\">Experiences</font>",
+        "pf_8cb3b272_value": "<font color=\"#ffffff\">Visit Us</font>",
+        "pf_8dd3a620_value": "Looking for something unique?",
+        "pf_92d4bff9_value": "Wine Blending Workshop",
+        "pf_f95a6658_value": "Alentejo Wine Tasting",
+        "pf_ec238dd3_value": "Howard's Folly",
+        "pf_4f89c45d_value": "Winery Tour",
+        "pf_f90bf138_value": "Restaurant",
+        "pf_8ffbceb4_value": "Contact us"
+      }
     }
   },
   "order": [
