@@ -9,58 +9,43 @@
  */
 {
   "sections": {
-    "6a2dbe82-583d-45b7-a04a-f50bd269a34e": {
-      "type": "image-banner",
-      "blocks": {
-        "template--16039414956244__6a2dbe82-583d-45b7-a04a-f50bd269a34e-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Join the Wine Club",
-            "heading_size": "medium"
-          }
-        },
-        "template--16039414956244__6a2dbe82-583d-45b7-a04a-f50bd269a34e-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "Enjoy the benefits of our Wine Club, with a bi-annual selection of bottles, a 20% discount and invites to special events."
-          }
-        },
-        "template--16039414956244__6a2dbe82-583d-45b7-a04a-f50bd269a34e-buttons-1": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Join here",
-            "button_link_1": "https://www.howardsfollywine.com/pages/wine-club-shipments",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16039414956244__6a2dbe82-583d-45b7-a04a-f50bd269a34e-heading-1",
-        "template--16039414956244__6a2dbe82-583d-45b7-a04a-f50bd269a34e-text-1",
-        "template--16039414956244__6a2dbe82-583d-45b7-a04a-f50bd269a34e-buttons-1"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Wine_Club.png",
-        "image_height": "small",
-        "adapt_height_first_image": false,
-        "desktop_text_box_position": "center",
-        "show_text_box": true,
-        "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "pf-dfcab967": {
       "type": "pf-dfcab967",
-      "settings": {}
+      "settings": {
+        "pf_3837b626_value": "By enrolling in the club, you are agreeing to receive two shipments of wine in March and October, at a 20% discount membership price.\n<br><br>Membership entitles you to buy additional wine via the website, or direct from our winery at a members’ discount of 20%.  In addition, you will also get privileged access to reserve and limited edition wines at a 20% discount (subject to availability and allocation). You will also receive invitations to members events in London, Hong King or Lisbon as well as VIP tours and tastings at the vineyard and winery in Portugal.&nbsp;",
+        "pf_ffe3ac79_value": "Know someone that loves wine? Why not enrol them as a club member as a gift? Simply hit-up the gift packages area. When you checkout you can set the quantity (equal to the number of shipments and subject to a minimum of 2). Membership is also great as a corporate gift because we can deliver directly to your client’s office. It’s also a longer-term reminder of how much you value their business than either flowers or chocolate!",
+        "pf_a155f138_value": "Twice a year - in March and October - we will select 12 bottles of our current releases and send them straight to your door at a 20% discount + shipping.\n<br><br>We will contact you first with our recommendations for the next case but you may change to wines of your own choice if you prefer.\n<br><br>Current price per 12 bottle selection is:",
+        "pf_aa6b158a_value": "No extra fees here. You only pay for the wine that is delivered directly to your door, at a 20% member discount. In addition to your initial order of a case of wine, as a member of the club you are signing up for a minimum of two additional shipments before you can cancel.&nbsp;",
+        "pf_18cb2a39_value": "We ship to most places in Portugal, the UK and Hong Kong.<br><br>There may be a small additional charge to ship to some rural locations. We are unable to ship to PO Box addresses.\r\rFor shipping to other countries, please Contact Us for more information.",
+        "pf_cf99c98b_value": "You will receive 12 bottles of wine with each wine club shipment. You may also order additional cases of wine or choose to take advantage of our special offers of reserve and premium wines. Order quantities will vary, depending on the offer.&nbsp;",
+        "pf_5e08cf81_value": "As a member of the wine club, you will be billed at the begining of each month prior to shipping (March and October) until you cancel (subject to a minimum of 2 shipments.)",
+        "pf_b3a60695_value": "<b>Two shipments a year </b><br><br>Automatic shipments of 2 cases of 12 bottles of the current vintages each year with your 20% discount automatically applied.",
+        "pf_7d2b55cc_value": "Wine packages are shipped out to our members twice a year in March and October. You will receive an email notification prior to each shipment.",
+        "pf_da784df0_value": "<b>Special events\r</b><br><br>Special dinners and tastings in Hong Kong, London and Portugal at 20% off the ticket price.",
+        "pf_2ddb5af5_value": "<b>Right of first refusal </b><br><br>Limited edition and super premium wines at 20% discount (subject to allocation).",
+        "pf_a0a478ef_value": "<b>20% discount\r</b><br><br>Purchase as much additional wine as you like whenever you like all at 20% discount.",
+        "pf_139204f8_value": "Find out more by reading some of our Frequently Asked Questions",
+        "pf_70d2d59a_label": "EUR €0 Initiation fee / EUR €0 Cancellation fee",
+        "pf_cc4f9d70_value": "<strong>+ 300 Members</strong>",
+        "pf_ac79fbf0_label": "When will I receive my wine?",
+        "pf_ce500112_value": "<b>WINE CLUB SHIPMENTS</b>",
+        "pf_12af47bc_value": "Wine Club Subscription",
+        "pf_3810424a_value": "€134.40 per shipment",
+        "pf_158ab8fb_label": "Makes a great gift!",
+        "pf_f02dc519_value": "What's Included?",
+        "pf_f734f80d_value": "HOWARD'S FOLLY",
+        "pf_b5520307_value": "Club Specifics",
+        "pf_ac2e2ee9_label": "Amount of Wine",
+        "pf_30a81efb_value": "Join our Club",
+        "pf_cf814bea_label": "Still unsure?",
+        "pf_0df58016_label": "Membership",
+        "pf_b2c81098_label": "Shipping",
+        "pf_bc0973fa_value": "Divider",
+        "pf_55cc3e72_label": "Billing"
+      }
     }
   },
   "order": [
-    "6a2dbe82-583d-45b7-a04a-f50bd269a34e",
     "pf-dfcab967"
   ]
 }
