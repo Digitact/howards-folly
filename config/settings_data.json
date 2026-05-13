@@ -11,7 +11,7 @@
   "current": {
     "colors_solid_button_labels": "#FFFFFF",
     "colors_accent_1": "#121212",
-    "colors_accent_2": "#334FB4",
+    "colors_accent_2": "#4a1e28",
     "colors_text": "#121212",
     "colors_outline_button_labels": "#121212",
     "colors_background_1": "#FFFFFF",
@@ -101,9 +101,9 @@
           "bb8348aa-1798-43c3-bdfc-ad93538c86a8": {
             "type": "announcement",
             "settings": {
-              "text": "Orders over €150 benefit from free shipping.",
-              "color_scheme": "background-1",
-              "link": ""
+              "text": "Tours, Wine Tastings & Restaurant Bookings",
+              "color_scheme": "accent-2",
+              "link": "shopify://pages/contact-howards-folly"
             }
           }
         },
