@@ -9,58 +9,12 @@
  */
 {
   "sections": {
-    "2b4007ac-96ae-425a-91a1-6184fe855a2c": {
-      "type": "image-banner",
-      "blocks": {
-        "template--16039415251156__2b4007ac-96ae-425a-91a1-6184fe855a2c-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "The Folly",
-            "heading_size": "medium"
-          }
-        },
-        "template--16039415251156__2b4007ac-96ae-425a-91a1-6184fe855a2c-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "Enjoy a unique dining experience at our restaurant."
-          }
-        },
-        "template--16039415251156__2b4007ac-96ae-425a-91a1-6184fe855a2c-buttons-1": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Make a Reservation",
-            "button_link_1": "https://widget.thefork.com/en-GB/37f1d02a-e7be-4239-a0d9-84079435d610",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16039415251156__2b4007ac-96ae-425a-91a1-6184fe855a2c-heading-1",
-        "template--16039415251156__2b4007ac-96ae-425a-91a1-6184fe855a2c-text-1",
-        "template--16039415251156__2b4007ac-96ae-425a-91a1-6184fe855a2c-buttons-1"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/DSC00779.jpg",
-        "image_height": "small",
-        "adapt_height_first_image": false,
-        "desktop_text_box_position": "center",
-        "show_text_box": true,
-        "image_overlay_opacity": 0,
-        "color_scheme": "accent-1",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "pf-6612c590": {
       "type": "pf-6612c590",
       "settings": {}
     }
   },
   "order": [
-    "2b4007ac-96ae-425a-91a1-6184fe855a2c",
     "pf-6612c590"
   ]
 }
