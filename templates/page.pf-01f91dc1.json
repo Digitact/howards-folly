@@ -11,7 +11,10 @@
   "sections": {
     "pf-01f91dc1": {
       "type": "pf-01f91dc1",
-      "settings": {}
+      "settings": {
+        "pf_033e0297_value": "<span style=\"color: rgb(255, 255, 255);\">News &amp; Events</span>",
+        "pf_28ef4987_value": "News"
+      }
     }
   },
   "order": [
