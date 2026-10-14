@@ -49,7 +49,7 @@
         "custom_css": [],
         "settings": {
           "color_scheme": "background-1",
-          "logo": "shopify://shop_images/logo_folly.png",
+          "logo": "shopify://shop_images/logo_1.png",
           "logo_width": 80,
           "logo_position": "middle-left",
           "menu": "main-menu",
@@ -156,18 +156,8 @@
           "path": "/apps/winehub"
         }
       },
-      "6987625696575125306": {
-        "type": "shopify://apps/weglot-translate-your-store/blocks/weglot/3097482a-fafe-42ff-bc33-ea19e35c4a20",
-        "disabled": false,
-        "settings": {}
-      },
       "pagefly-page-builder": {
         "type": "shopify://apps/pagefly-page-builder/blocks/app-embed/83e179f7-59a0-4589-8c66-c0dddf959200",
-        "disabled": false,
-        "settings": {}
-      },
-      "13375938897875554821": {
-        "type": "shopify://apps/qikify-sales-pop-up/blocks/app-embed/688dd516-1cdc-4008-8329-23089a1c4e24",
         "disabled": false,
         "settings": {}
       }
