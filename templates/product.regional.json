@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -12,8 +21,7 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "subtitle": {
           "type": "text",
@@ -24,8 +32,7 @@
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -35,7 +42,12 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
+          "settings": {}
+        },
+        "custom_liquid_tjLwiE": {
+          "type": "custom_liquid",
           "settings": {
+            "custom_liquid": "<div class=\"product-gift-option\" style=\"margin: 1.5rem 0;\">\n  <label style=\"display: flex; align-items: center; gap: 0.6rem; cursor: pointer; font-weight: 500;\">\n    <input\n      type=\"checkbox\"\n      id=\"gift-checkbox-{{ section.id }}\"\n      name=\"properties[Is this a gift?]\"\n      value=\"Yes\"\n      form=\"product-form-{{ section.id }}\"\n      style=\"width: 16px; height: 16px; accent-color: rgb(var(--color-foreground)); cursor: pointer;\"\n    >\n    <span>Is this a gift?</span>\n  </label>\n\n  <div id=\"gift-message-wrapper-{{ section.id }}\" style=\"display: none; margin-top: 1rem;\">\n    <label for=\"gift-message-{{ section.id }}\" style=\"display: block; font-size: 1.3rem; margin-bottom: 0.4rem;\">\n      Gift message\n    </label>\n    <textarea\n      id=\"gift-message-{{ section.id }}\"\n      name=\"properties[Gift Message]\"\n      form=\"product-form-{{ section.id }}\"\n      rows=\"3\"\n      maxlength=\"250\"\n      placeholder=\"Write your gift note here...\"\n      disabled\n      style=\"width: 100%; padding: 0.8rem 1rem; border: 1px solid rgba(var(--color-foreground), 0.3); border-radius: var(--inputs-radius); font-family: inherit; font-size: 1.4rem; color: rgb(var(--color-foreground)); background: rgb(var(--color-background));\"\n    ></textarea>\n  </div>\n</div>\n\n<script>\n  document.addEventListener('DOMContentLoaded', function () {\n    const checkbox = document.getElementById('gift-checkbox-{{ section.id }}');\n    const wrapper = document.getElementById('gift-message-wrapper-{{ section.id }}');\n    const textarea = document.getElementById('gift-message-{{ section.id }}');\n\n    if (checkbox && wrapper && textarea) {\n      checkbox.addEventListener('change', function () {\n        if (this.checked) {\n          wrapper.style.display = 'block';\n          textarea.disabled = false;\n        } else {\n          wrapper.style.display = 'none';\n          textarea.disabled = true;\n          textarea.value = '';\n        }\n      });\n    }\n  });\n</script>"
           }
         },
         "buy_buttons": {
@@ -46,8 +58,7 @@
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "share": {
           "type": "share",
@@ -63,6 +74,7 @@
         "price",
         "variant_picker",
         "quantity_selector",
+        "custom_liquid_tjLwiE",
         "buy_buttons",
         "description",
         "share"
