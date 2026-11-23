@@ -333,4 +333,14 @@
     background-color: rgba(var(--color-card-hover), 0.06);
     transition: background-color var(--duration-long) ease;
   }
+  .card-wrapper:hover .media.media--hover-effect > img:first-child:not(:only-child) {
+  opacity: 0 !important;
+  visibility: hidden !important;
+}
+
+.card-wrapper:hover .media.media--hover-effect > img + img {
+  opacity: 1 !important;
+  z-index: 2 !important;
+  background-color: #ffffff !important;
+}
 }
