@@ -179,7 +179,28 @@
 {% else %}
 <!-- DONT ADD WEGLOT -->
 {% endif %}
-{% include 'pagefly-app-header' %}</head>
+{% include 'pagefly-app-header' %}
+<style>
+  .card__media img + img {
+    background-color: #ffffff !important;
+  }
+
+  .card:hover .card__media img:has(+ img),
+  .card-wrapper:hover .card__media img:has(+ img),
+  li:hover .card__media img:has(+ img) {
+    opacity: 0 !important;
+    visibility: hidden !important;
+  }
+
+  .card:hover .card__media img + img,
+  .card-wrapper:hover .card__media img + img,
+  li:hover .card__media img + img {
+    opacity: 1 !important;
+    visibility: visible !important;
+    z-index: 2 !important;
+  }
+</style>
+</head>
 
   <body class="gradient">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
