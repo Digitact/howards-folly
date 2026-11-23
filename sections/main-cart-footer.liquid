@@ -14,39 +14,6 @@
       {%- endif -%}
 
       <div class="cart__blocks">
-        <div class="cart-gift-option" style="margin-bottom: 1.5rem; text-align: left;">
-  <label style="display: flex; align-items: center; gap: 0.6rem; cursor: pointer; font-weight: 500;">
-    <input
-      type="checkbox"
-      id="cart-gift-checkbox"
-      name="attributes[Is this a gift?]"
-      value="Yes"
-      form="cart"
-      {% if cart.attributes['Is this a gift?'] == 'Yes' %}checked{% endif %}
-      style="width: 16px; height: 16px; accent-color: rgb(var(--color-foreground)); cursor: pointer;"
-    >
-    <span>Is this a gift?</span>
-  </label>
-
-  <div
-    id="cart-gift-message-wrapper"
-    style="{% unless cart.attributes['Is this a gift?'] == 'Yes' %}display: none;{% endunless %} margin-top: 1rem;"
-  >
-    <label for="cart-gift-message" style="display: block; font-size: 1.3rem; margin-bottom: 0.4rem;">
-      Gift message
-    </label>
-    <textarea
-      id="cart-gift-message"
-      name="attributes[Gift Message]"
-      form="cart"
-      rows="3"
-      maxlength="250"
-      placeholder="Write your gift note here..."
-      {% unless cart.attributes['Is this a gift?'] == 'Yes' %}disabled{% endunless %}
-      style="width: 100%; padding: 0.8rem 1rem; border: 1px solid rgba(var(--color-foreground), 0.3); border-radius: var(--inputs-radius); font-family: inherit; font-size: 1.4rem; color: rgb(var(--color-foreground)); background: rgb(var(--color-background));"
-    >{{ cart.attributes['Gift Message'] }}</textarea>
-  </div>
-</div>
         {% for block in section.blocks %}
           {%- case block.type -%}
             {%- when '@app' -%}
@@ -55,13 +22,7 @@
               <div class="js-contents" {{ block.shopify_attributes }}>
                 <div class="totals">
                   <h3 class="totals__subtotal">{{ 'sections.cart.subtotal' | t }}</h3>
-                  <p class="totals__subtotal-value">
-                    {% if customer.tags contains 'active_wine_club' %}
-                    Member Price: {{ cart.total_price | times:0.8 | money_with_currency }}
-                    {% else %}
-                    {{ cart.total_price | money_with_currency }}
-                    {% endif %}
-                  </p>
+                  <p class="totals__subtotal-value">{{ cart.total_price | money_with_currency }}</p>
                 </div>
 
                 <div>
@@ -152,49 +113,6 @@
     });
   });
 </script>
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    function initCartGiftOption() {
-      const checkbox = document.getElementById('cart-gift-checkbox');
-      const wrapper = document.getElementById('cart-gift-message-wrapper');
-      const textarea = document.getElementById('cart-gift-message');
-
-      if (!checkbox || !wrapper || !textarea) return;
-
-      function syncCartAttributes() {
-        fetch(window.Shopify.routes.root + 'cart/update.js', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            attributes: {
-              'Is this a gift?': checkbox.checked ? 'Yes' : '',
-              'Gift Message': checkbox.checked ? textarea.value : ''
-            }
-          })
-        });
-      }
-
-      checkbox.addEventListener('change', function () {
-        if (this.checked) {
-          wrapper.style.display = 'block';
-          textarea.disabled = false;
-        } else {
-          wrapper.style.display = 'none';
-          textarea.disabled = true;
-          textarea.value = '';
-        }
-        syncCartAttributes();
-      });
-
-      let debounceTimer;
-      textarea.addEventListener('input', function () {
-        clearTimeout(debounceTimer);
-        debounceTimer = setTimeout(syncCartAttributes, 400);
-      });
-    }
-
-    initCartGiftOption();
-  });
 
 {% schema %}
 {
