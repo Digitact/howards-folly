@@ -14,6 +14,34 @@
       {%- endif -%}
 
       <div class="cart__blocks">
+        <div class="cart-gift-option" style="margin-bottom: 1.5rem; text-align: left;">
+  <label style="display: flex; align-items: center; gap: 0.6rem; cursor: pointer; font-weight: 500;">
+    <input
+      type="checkbox"
+      id="cart-gift-checkbox"
+      {% if cart.attributes['Is this a gift?'] == 'Yes' %}checked{% endif %}
+      style="width: 16px; height: 16px; accent-color: rgb(var(--color-foreground)); cursor: pointer;"
+    >
+    <span>Is this a gift?</span>
+  </label>
+
+  <div
+    id="cart-gift-message-wrapper"
+    style="{% unless cart.attributes['Is this a gift?'] == 'Yes' %}display: none;{% endunless %} margin-top: 1rem;"
+  >
+    <label for="cart-gift-message" style="display: block; font-size: 1.3rem; margin-bottom: 0.4rem;">
+      Gift message
+    </label>
+    <textarea
+      id="cart-gift-message"
+      rows="3"
+      maxlength="250"
+      placeholder="Write your gift note here..."
+      {% unless cart.attributes['Is this a gift?'] == 'Yes' %}disabled{% endunless %}
+      style="width: 100%; padding: 0.8rem 1rem; border: 1px solid rgba(var(--color-foreground), 0.3); border-radius: var(--inputs-radius); font-family: inherit; font-size: 1.4rem; color: rgb(var(--color-foreground)); background: rgb(var(--color-background));"
+    >{{ cart.attributes['Gift Message'] }}</textarea>
+  </div>
+</div>
         {% for block in section.blocks %}
           {%- case block.type -%}
             {%- when '@app' -%}
@@ -112,6 +140,62 @@
       document.querySelector('#cart').submit();
     });
   });
+</script>
+<script>
+  (function () {
+    let debounceTimer;
+
+    function syncCartGiftAttributes(isGift, message) {
+      fetch((window.Shopify?.routes?.root || '/') + 'cart/update.js', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify({
+          attributes: {
+            'Is this a gift?': isGift ? 'Yes' : '',
+            'Gift Message': isGift ? message : ''
+          }
+        })
+      }).catch(function (err) {
+        console.error('Cart gift attribute update failed:', err);
+      });
+    }
+
+    document.addEventListener('change', function (event) {
+      if (event.target && event.target.id === 'cart-gift-checkbox') {
+        const checkbox = event.target;
+        const wrapper = document.getElementById('cart-gift-message-wrapper');
+        const textarea = document.getElementById('cart-gift-message');
+
+        if (!wrapper || !textarea) return;
+
+        if (checkbox.checked) {
+          wrapper.style.display = 'block';
+          textarea.disabled = false;
+        } else {
+          wrapper.style.display = 'none';
+          textarea.disabled = true;
+          textarea.value = '';
+        }
+
+        syncCartGiftAttributes(checkbox.checked, textarea.value);
+      }
+    });
+
+    document.addEventListener('input', function (event) {
+      if (event.target && event.target.id === 'cart-gift-message') {
+        const textarea = event.target;
+        const checkbox = document.getElementById('cart-gift-checkbox');
+
+        clearTimeout(debounceTimer);
+        debounceTimer = setTimeout(function () {
+          syncCartGiftAttributes(checkbox ? checkbox.checked : true, textarea.value);
+        }, 400);
+      }
+    });
+  })();
 </script>
 
 {% schema %}
