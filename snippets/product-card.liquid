@@ -1,4 +1,15 @@
-{% comment %}
+<style>
+  .card__media .media img:nth-child(2) {
+    background-color: #ffffff !important;
+    z-index: 2 !important;
+  }
+
+  .card-wrapper:hover .card__media .media img:first-child:not(:only-child),
+  .card:hover .card__media .media img:first-child:not(:only-child) {
+    opacity: 0 !important;
+    visibility: hidden !important;
+  }
+</style>{% comment %}
     Renders a product card
 
     Accepts:
