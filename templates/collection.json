@@ -19,7 +19,8 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "custom_css": [
-        "@media screen and (max-width: 767px) {.card-information__wrapper {display: flex; flex-direction: column; align-content: center; justify-content: center; } .card-information__text {height: 40px; } .price__regular {flex-direction: column; justify-content: center; align-content: center; margin-left: auto; margin-right: auto; width: 100%; gap: 16px; } .price__regular > div {width: 100% !important; }}"
+        "@media screen and (max-width: 767px) {.card-information__wrapper {display: flex; flex-direction: column; align-content: center; justify-content: center; } .card-information__text {height: 40px; } .price__regular {flex-direction: column; justify-content: center; align-content: center; margin-left: auto; margin-right: auto; width: 100%; gap: 16px; } .price__regular > div {width: 100% !important; }}",
+        ".card-wrapper:hover .media.media--hover-effect > img:first-child:not(:only-child) {opacity: 0 !important;}"
       ],
       "settings": {
         "products_per_page": 16,
