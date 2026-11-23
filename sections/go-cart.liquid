@@ -96,9 +96,9 @@
         <!--go cart drawer buttons-->
         <div class="go-cart-drawer__footer js-go-cart-drawer-footer">
 
-            <a href="/checkout/" class="button button--primary">
+           {% comment %} <a href="/checkout/" class="button button--primary">
                 {{ 'sections.cart.checkout' | t }}
-            </a>
+            </a>{% endcomment %}
 
             <a href="/cart/" class="button button--secondary">
                 {{ 'general.cart.view' | t | replace: count_brackets, '' }}
