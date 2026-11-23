@@ -78,13 +78,6 @@
         "enable_video_looping": false
       }
     },
-    "custom_liquid_CE9w9n": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": ""
-      }
-    },
     "product-recommendations": {
       "type": "product-recommendations",
       "custom_css": [
@@ -103,7 +96,6 @@
   },
   "order": [
     "main",
-    "custom_liquid_CE9w9n",
     "product-recommendations"
   ]
 }
