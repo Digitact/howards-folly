@@ -517,5 +517,12 @@ drinking age in your country.
     });
   });
 </script>
+{% if product.handle == 'howards-folly-wine-opener' %}
+  <style>
+    .price div[style*="width: 50%"]:has(.price-item) {
+      display: none !important;
+    }
+  </style>
+{% endif %}
   </body>
 </html>
