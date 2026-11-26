@@ -20,6 +20,17 @@
       display: block;
     }
   }
+  css
+  #Banner-{{ section.id }} {
+    position: relative;
+  }
+
+  #Banner-{{ section.id }} .banner__overlay-link {
+    position: absolute;
+    inset: 0;
+    z-index: 3;
+    display: block;
+  }
   {%- endstyle -%}
 {%- endif -%}
 
