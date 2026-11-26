@@ -49,7 +49,7 @@
       "settings": {
         "image": "shopify://shop_images/Download_the_verified_1600_x_700_Howard_s_Folly_banner.png",
         "image_height": "medium",
-        "adapt_height_first_image": false,
+        "adapt_height_first_image": true,
         "desktop_text_box_position": "flex-end",
         "show_text_box": false,
         "image_overlay_opacity": 0,
