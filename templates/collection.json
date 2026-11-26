@@ -47,6 +47,7 @@
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
+        "image_link": "shopify://collections/gifts",
         "image": "shopify://shop_images/christmas_gifting_HF.png",
         "image_height": "medium",
         "adapt_height_first_image": true,
