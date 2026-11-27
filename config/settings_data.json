@@ -118,7 +118,7 @@
           "announcement-hk-0": {
             "type": "announcement",
             "settings": {
-              "text": "Orders over HK$2500 benefit from free shipping.",
+              "text": "Orders over HK$2000 benefit from free shipping.",
               "color_scheme": "accent-2",
               "link": ""
             }
